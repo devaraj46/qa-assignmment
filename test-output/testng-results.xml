@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-08T15:11:17 IST" name="Default suite" finished-at="2026-02-08T15:11:23 IST" duration-ms="6459">
+    <groups>
+    </groups>
+    <test started-at="2026-02-08T15:11:17 IST" name="Default test" finished-at="2026-02-08T15:11:23 IST" duration-ms="6459">
+      <class name="tests.SmokeSauceDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SmokeSauceDemo@5c5eefef]" started-at="2026-02-08T15:11:17 IST" name="setUp" finished-at="2026-02-08T15:11:20 IST" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userLogin()[pri:1, instance:tests.SmokeSauceDemo@5c5eefef]" started-at="2026-02-08T15:11:20 IST" name="userLogin" finished-at="2026-02-08T15:11:21 IST" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="addingProductFromGridView()[pri:2, instance:tests.SmokeSauceDemo@5c5eefef]" started-at="2026-02-08T15:11:21 IST" name="addingProductFromGridView" finished-at="2026-02-08T15:11:22 IST" depends-on-methods="tests.SmokeSauceDemo.userLogin" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProductFromGridView -->
+        <test-method signature="removingProductFromCart()[pri:3, instance:tests.SmokeSauceDemo@5c5eefef]" started-at="2026-02-08T15:11:22 IST" name="removingProductFromCart" finished-at="2026-02-08T15:11:22 IST" depends-on-methods="tests.SmokeSauceDemo.addingProductFromGridView" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removingProductFromCart -->
+        <test-method signature="cartCheckout()[pri:4, instance:tests.SmokeSauceDemo@5c5eefef]" started-at="2026-02-08T15:11:22 IST" name="cartCheckout" finished-at="2026-02-08T15:11:23 IST" depends-on-methods="tests.SmokeSauceDemo.removingProductFromCart" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SmokeSauceDemo@5c5eefef]" started-at="2026-02-08T15:11:23 IST" name="tearDown" finished-at="2026-02-08T15:11:23 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SmokeSauceDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
